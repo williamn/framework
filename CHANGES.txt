@@ -1,3 +1,76 @@
+
+n.n.n / 2010-08-30 
+==================
+
+  * Implement 'method' => symbol of HTTP verb on linkTo. Added test for 'method' => 'post' and 'method' => 'delete'.
+  * Added nbproject directory used by NetBeans IDE
+  * Merge remote branch 'upstream/master'
+  * Implement 'confirm' => 'question?' on linkTo. Adding some more test on UrlTest.
+  * Implement 'confirm' => 'question?' on linkTo. Adding some more test on UrlTest.
+  * Typo fix
+  * Seperate several view functions with a newline
+  * Made some kind of namespaced controllers work
+  * Mad_Model_PaginatedCollection no longer extends Mad_Support_ArrayObject.
+  * Fixed grammar.
+  * Mad_Model_Collection and Mad_Model_Errors no longer extend Mad_Model_ArrayObject.
+  * Removed Horde/Http_Client from vendor/ since it is not used by the framework itself.
+  * Added contributions from Philipp and Dmitriy to the changelog.
+  * Clearing the superglobals can now be disabled.  Requested by John Herren.
+  * Updated to latest Horde/Support master.
+  * Updated to latest Horde/Log master.
+  * Updated to latest Horde/Http_Client master.
+  * Updated to latest Horde/Yaml master.
+  * Updated to latest Horde/Routes master.
+  * Fix creation of main application directory when using createapp
+  * validation declaration validatesUniquenessOf now accepts scope in array
+  * Add references() and belongsTo() functions to add foreign keys
+  * column() can now take several column names as the first parameter
+  * Add timestamps() function to add created_at and updated_at columns
+  * Add __call to TableDefinition for ruby 2.0 sexy migrations
+  * Adjust script call in README
+  * Add createapp script to create an application directory
+  * Update documentation for createapp script
+  * foreign key for belongsTo is calculated from association key, not from table name
+  * Simplify the new view stub generation
+  * Add help text for view generation
+  * Create view files like rails
+  * Added Mad_Model_Base::first as shortcut to find('first')
+  * NULL as value for bind variables in Model is acceptable
+  * Fixed docblock.
+  * mixedCase database columns may be updated in Mad_Model_Base
+  * mixedCase database columns are now accessible in Mad_Model_Base
+  * Added new method getLayout().
+  * Removed methods that are no longer used.
+  * Removed type hints.
+  * Add dbconsole script
+  * only make tasks out of public methods
+  * Added missing directories, Acknowledgements.
+  * Added README.markdown.
+  * Fixed help message.
+  * Use spl_autoload_register() instead of __autoload().
+  * Added tmp directory used by FileUtils test.
+  * Added .gitignore with log/ and tmp/ directories.
+  * Replaced Mad_Support_Timer with Horde_Support_Timer.
+  * Updated to Horde/Routes 0.4.
+  * Removed country select tag.
+  * Updated year to 2009.
+  * Updated year to 2009.
+  * Close connection and remove exit().  Patch by German M. Bravo.
+  * Change 'priority' to 'level' for Horde_Log compatibility.
+  * Improve performance of modelExists().  Patch by Germán M. Bravo.
+  * Replaced Zend_Log with Horde_Log.
+  * Removed dependency on Solar_Json.
+  * ConnectionAdapter dropped since migration to Horde_Db.
+  * Extract route printout to Horde_Routes_Printer.
+  * make it so that pagination works with absolute urls
+  * add methods to get cookie/server params
+  * Removed test for JavascriptGenerator.
+  * Removed JavascriptGenerator which was never used.
+  * Dropped bundled support for Markdown and Textile formatting.
+  * Added sample public/ folder.
+  * Ensure dates with all zeros are preserved.
+  * Integrated Horde_Db.
+  * Update version to 0.1.0
 Next Release
 
  - Mad_Model_Collection, Mad_Model_PaginatedCollection, and 
