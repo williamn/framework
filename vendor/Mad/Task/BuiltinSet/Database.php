@@ -43,5 +43,14 @@ class Mad_Task_BuiltinSet_Database extends Mad_Task_Set
         Mad_Model_Migration_Migrator::down($path, 0);
         Mad_Model_Migration_Migrator::up($path);
     }
+    
+    /**
+     * Load the seed data from db/seeds.php
+     */
+    public function db_seed()
+    {
+        $file = MAD_ROOT . '/db/seeds.php';
+        require_once $file;
+    }
 
 }
